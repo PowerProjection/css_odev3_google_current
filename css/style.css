@@ -1,0 +1,268 @@
+body {
+    margin:0;
+    display: flex;
+    flex-direction: column;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* full screen*/
+}
+
+/* navbar */
+
+
+#navbar {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    height: 48px;
+    gap: 14px;
+    padding: 6px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+    font: 13px/27px Roboto,Arial,sans-serif;
+}
+
+.navbarIconDiv {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 40px; 
+    height: 40px;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+#navbar img {
+    border-radius: 50px;
+}
+
+
+.path {
+    color: #5f6368;
+    fill: currentColor
+    
+}
+
+.hoverBox:hover {
+    border-radius: 50px;
+    background-color: rgba(60,64,67,.08);
+}
+
+/* navbar end  */
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    padding-top: 15px;
+
+}
+#input {
+    max-height: 160px;
+    padding-top: 20px;
+}
+#space {
+    height: 100px;
+    flex-grow: 1;
+}
+#footer {
+    display: flex;
+    flex-direction: column;
+    /* height: 100px; */
+    background-color: #f2f2f2;
+}
+
+#turkiye {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    font-family: arial, sans-serif;
+}
+
+#footer2 {
+    padding: 15px 30px;
+    display: flex;
+    flex-wrap: none;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #70757a;
+}
+
+#footer2 a {
+    text-decoration: none;
+    color: #70757a;
+    padding: 15px;
+}
+
+#footer2 a:hover {
+    text-decoration: underline;
+}
+
+
+/* MAIN DIVS END */
+
+#logo img {
+    margin-bottom: -5px;
+}
+
+#karbonNotr:hover {
+    text-decoration: none !important;
+}
+
+#karbonNotrDiv {
+    padding-right: 180px;
+    /* saçma ama olsun sıkıldım uğraşamayacağım :) */
+}
+
+#inputDiv2 {
+    /* background-color: cyan; */
+    padding-top: 6px;
+    max-width: 584px;
+    width: auto;
+    position: relative;
+    margin: 0 auto;
+    
+}
+
+#inputDiv3 {
+    display: flex;
+    max-width: 584px;
+    height: 44px;
+    margin: 0 auto;
+    border-radius: 24px;
+    box-shadow: none;
+    border: 1px solid #dfe1e5;
+    background: #fff;
+}
+
+#bolmeliInput {
+    display: flex;
+    flex: 1;
+    padding: 2px 8px 0 14px;
+}
+
+#buyutec {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+
+#buyutec span {
+    /* margin-left: 5px; */
+    height:20px;
+    line-height:20px;
+    width:20px;
+    margin-top: 5px;
+    color: #9aa0a6;
+    display: inline-block;
+    fill: currentColor;
+    position: relative;
+
+
+}
+
+#ayrac {
+    border-left: 1px solid rgba(128, 128, 128, 0.296);
+    height: 30px;
+    padding-right: 10px;
+}
+
+#inputArea {
+display: flex;
+flex: 1;
+}
+
+#textInput {
+    display: flex;
+    flex-grow: 1;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    height: 34px;
+    font-size: 16px;
+    flex: 100%;
+}
+
+#icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 10px;
+}
+
+#closeButton {
+    height: 100%;
+    color: #70757a;
+    vertical-align: middle;
+    outline: none;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+    width: 24px;
+    padding: 0 12px;
+    margin-top: 5px;
+}
+
+#mikrofon {
+    height: 100%;
+    width: 24px;
+    padding: 0 15px;
+}
+
+#closeBtnDiv {
+    visibility: visible;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#closeBtnDivDisabled {
+    display: none;
+    visibility: hidden;
+}
+
+#buttonsDiv {
+    height: 70px;
+    padding-top: 18px;
+    
+}
+
+.buttonX {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+
